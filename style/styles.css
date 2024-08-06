@@ -185,3 +185,87 @@ span {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
 }
+
+.habilidades h2 {
+  margin-bottom: 5rem;
+}
+
+.habilidades-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.habilidades-container .habilidades-box {
+  flex: 1 1 30rem;
+  background: var(--snd-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.habilidades-container .habilidades-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+.habilidades-box i {
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.habilidades-box h3 {
+  font-size: 2.6rem;
+}
+
+.habilidades-box p {
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
+.contato h2 {
+  margin-bottom: 3rem;
+}
+
+.contato form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contato form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contato form .input-box input,
+.contato form textarea {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: var(--snd-bg-color);
+  border-radius: 0.8rem;
+  margin: 0.7rem;
+  box-sizing: border-box;
+}
+
+.contato form .input-box input {
+  width: calc(50% - 1.4rem);
+}
+
+.contato form textarea {
+  width: calc(100% - 1.5rem);
+  resize: none;
+  margin: 0.7rem 0.7rem 0.7rem 0;
+}
+
+.contato form .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+}
