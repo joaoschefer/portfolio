@@ -408,3 +408,21 @@ span {
     width: 100%;
   }
 }
+
+/*Página de obrigado*/
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.texto {
+  font-size: 500%;
+  color: white;
+  margin-bottom: 2%;
+}
+
+.paragrafo {
+}
