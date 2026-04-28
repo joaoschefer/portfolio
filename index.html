@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>JG.dev</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="home">
+            <div class="home-texto">
+                <h1>Olá,</h1>
+                <h1>Eu sou o João</h1>
+                <h3>Software developer</h3>
+                <p>Formado em ciência da computação pela Unijuí e sempre em busca
+                    de aprimoramento em minhas habilidades e buscando novos aprendizados.
+                    Atualmente cursando análise e desenvolvimento de sistemas na Uniasselvi.
+                </p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/seu-user" class="btn" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/seu-user" class="btn" target="_blank">GitHub</a>
+                    <a href="mailto:seu-email@dominio.com" class="btn">Email</a>
+                    <a href="curriculo.pdf" download class="btn">Download CV</a>
+                </div>
+            </div>
+
+            <img src="eu.jpeg" alt="Foto de perfil">
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="sobre-texto">
+                <h1>Sobre mim</h1>
+                <p>Desde criança, sempre gostei de tecnologia. Com o tempo, meu interesse
+                    evoluiu para a programação. Iniciei o curso de Ciência da Computação
+                    na Unijuí, onde tive meu primeiro contato com uma linguagem de
+                    programação, Python, que despertou em mim um grande interesse pelo
+                    backend. Mais tarde, tive a oportunidade de participar de uma bolsa de
+                    estudos no GAIC na Unijuí, onde desenvolvi um projeto focado no frontend,
+                    e foi aí que descobri um novo interesse por essa área também.
+                    Hoje, estou entusiasmado em explorar e integrar essas duas vertentes
+                    do desenvolvimento em novos projetos.</p>
+            </div>
+
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <article class="hard-skills">
+                <h3>Hard skills</h3>
+                <div class="cards-skills">
+                    <span>Python</span> <span>Django</span> <span>JavaScript</span> <span>PostgreSQL</span> <span>React</span> <span>Power BI</span>
+                </div>
+            </article>
+
+            <article class="soft-skills">
+                <h3>Soft skills</h3>
+                <div class="cards-skills">
+                    <span>Comunicação</span> <span>Proatividade</span>
+                </div>
+            </article>
+        </section>
+
+        <section id="projetos" class="projetos">
+            <h1>Projetos</h1>
+            <div class="cards-projetos">
+                <div class="porktek">
+                    <img src="porktek.png" alt="Porktek">
+                    <h3>Porktek - TCC</h3>
+                    <p>Aplicativo desenvolvido como Trabalho de Conclusão de Curso (TCC) como objetivo de auxiliar no gerenciamento de dados da parte de creche na suinocultura</p>
+                </div>
+                <div class="providex">
+                    <img src="providex.jpeg" alt="Providex">
+                    <h3>Providex</h3>
+                    <p>Projeto de estágio em Ciência da Computação, onde foi desenvolvido a parte de front-end do site da empresa Providex.</p>
+                </div>
+                <div class="vesto">
+                    <img src="vesto.png" alt="Vesto">
+                    <h3>Vesto</h3>
+                    <p>Plataforma web em fase de desenvolvimento utilizando Django REST Framework (backend) e React.js (frontend) para gerenciamento de finanças pessoais e investimentos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Entre em contato</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JG.dev - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
